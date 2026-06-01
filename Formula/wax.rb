@@ -16,7 +16,7 @@ class Wax < Formula
   end
 
   def install
-    bin.install "wax-#{version}-#{Hardware::CPU.arm? ? "aarch64-apple-darwin" : "x86_64-apple-darwin"}/wax" => "wax"
+    bin.install "wax" => "wax"
   end
 
   def caveats
