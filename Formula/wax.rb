@@ -23,7 +23,7 @@ class Wax < Formula
     bin.install "wax" => "wax"
   end
 
-  def post_install
+  def post_install_steps
     Dir.mktmpdir("wax-language-refresh") do |repo_root|
       next if quiet_system bin/"wax", "language", "update", "--all", "--repo-root", repo_root
 
