@@ -10,12 +10,12 @@ class Wax < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Daio-io/wax/releases/download/v0.10.2-alpha.1/wax-0.10.2-alpha.1-aarch64-apple-darwin.tar.gz"
-      sha256 "3587e6a1d3b36c7597b210bef1f8abf1eadb0efaab87080902ee3452686a7957"
+      url "https://github.com/Daio-io/wax/releases/download/v0.10.3-alpha2/wax-0.10.3-alpha2-aarch64-apple-darwin.tar.gz"
+      sha256 "e588d41c3167a23ff4f18e6f39f1c2969e54dfaf8903565f509c684558887f70"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Daio-io/wax/releases/download/v0.10.2-alpha.1/wax-0.10.2-alpha.1-x86_64-apple-darwin.tar.gz"
-      sha256 "abef875edbf8542930286887720cae192f9c4bce35c3a1cb0ffe60ed0fd37db1"
+      url "https://github.com/Daio-io/wax/releases/download/v0.10.3-alpha2/wax-0.10.3-alpha2-x86_64-apple-darwin.tar.gz"
+      sha256 "3e754c5800877b1354963f9b9f1632f3571cd6571efa79ce52edf3f9f597559e"
     end
   end
 
